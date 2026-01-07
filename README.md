@@ -32,6 +32,7 @@ This adaptive strategy improves the balance between precision and recall in imba
 
 🗂️ Project Structure
 src/
+
 ├── loss_functions.py   # Custom loss functions and adaptive hybrid loss
 
 ├── model.py            # Neural network architecture
@@ -70,7 +71,7 @@ pip install -r requirements.txt
 
 Clone the repository:
 
-git clone https://github.com/your-username/adaptive-hybrid-loss.git
+git clone https://github.com/QSskaftab0820/adaptive-hybrid-loss.git
 
 cd adaptive-hybrid-loss
 
