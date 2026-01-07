@@ -33,10 +33,15 @@ This adaptive strategy improves the balance between precision and recall in imba
 🗂️ Project Structure
 src/
 ├── loss_functions.py   # Custom loss functions and adaptive hybrid loss
+
 ├── model.py            # Neural network architecture
+
 ├── train.py            # Training loop with adaptive loss logic
+
 ├── evaluate.py         # Evaluation metrics and visualization logic
+
 ├── utils.py            # Data loading and preprocessing
+
 └── __init__.py
 
 requirements.txt        # Python dependencies
@@ -66,12 +71,14 @@ pip install -r requirements.txt
 Clone the repository:
 
 git clone https://github.com/your-username/adaptive-hybrid-loss.git
+
 cd adaptive-hybrid-loss
 
 
 (Optional) Create a virtual environment:
 
 python -m venv venv
+
 source venv/bin/activate   # Windows: venv\Scripts\activate
 
 
@@ -105,6 +112,7 @@ Due to class imbalance, F1-score and AUC are considered the primary performance 
 The dataset used is a publicly available credit card fraud detection dataset.
 
 ⚠️ Dataset files are not included in this repository due to size and licensing constraints.
+
 Please place the dataset in a local data/ directory if you wish to run the code.
 
 📄 Related Documents
@@ -122,7 +130,9 @@ These documents were submitted separately as part of the Developer Round-1 assig
 ✍️ Author
 
 SK AFTAB
+
 Developer Round-1 Submission
+
 Field: Data Science / Machine Learning
 
 📜 License
